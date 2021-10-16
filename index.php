@@ -8,25 +8,7 @@
   $pass = '';
   $db = 'testdb';
   $db_connection = new mysqli('localhost', $user, $pass, $db) or die("unable to connect");
-  /*$sql = "SELECT * FROM persons";
-  //$sql=
-  //"INSERT INTO persons (first_name, last_name)
-  //VALUES ('spice', 'dice')";
-  //$insert=$db_connection->query($sql);
-  /*if ($db_connection->query($sql) === TRUE) {
-    echo "New record created successfully";
-  } else {
-    echo "Error: " . $sql . "<br>" . $db_connection->error;
-  }
-  $data = $db_connection->query($sql);
-  if ($data->num_rows > 0) {
-    // output data of each row
-    while ($row = $data->fetch_assoc()) {
-      echo "id: " . $row["id"] . " - Name: " . $row["first_name"] . " " . $row["last_name"] . "<br>";
-    }
-  } else {
-    echo "0 results";
-  }*/
+  
   
   $db_connection->close();
 
@@ -37,6 +19,7 @@
   echo 'Rn: ' . $rn->format('m/d/Y') . PHP_EOL;
   ?>
   <p>Apparently html</p>
+  
   <h2>Add Student</h2>
   <ul>
     <?php

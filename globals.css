@@ -1,0 +1,17 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{box-sizing: border-box; 
+padding: 0px; 
+margin: 0px;
+outline: transparent;
+font-family: 'Roboto', sans-serif;}
+
+:root{--colored-border: #34d1bf;
+      --darkened-bg: #efefef;
+      --red-shadow: #d1345b;
+      --dark-text: #070707
+
+
+}

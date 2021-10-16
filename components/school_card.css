@@ -1,0 +1,10 @@
+.school-card_container{
+    width: 260px;
+    height: 200px;
+    padding: 1rem;
+    color: var(--dark-text);
+    background-color: var(--darkened-bg);
+    border: 10px solid var(--colored-border);
+    box-shadow: var(--red-shadow) 0 0 3px 3px;
+    
+}
